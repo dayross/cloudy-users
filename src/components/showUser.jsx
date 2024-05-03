@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const showUser = ({id, name, email}) => {
+
+export const ShowUser = ({id, name, email}) => {
+  
   return (
     <>
         <p> El usuario {id} </p>
